@@ -94,6 +94,6 @@
 * Output
   ```shell
   Console: Hello World!!
-  UpperCase: hello world!!
+  LowerCase: hello world!!
   UpperCase: HELLO WORLD!!
   ```
