@@ -1,6 +1,8 @@
-package designpattern.strategy;
+package designpattern.strategypattern.context;
 
-public class Printer {
+import designpattern.strategypattern.strategy.PrintStrategy;
+
+public class PrinterContext {
     private PrintStrategy printStrategy;
 
     public void setPrintStrategy(PrintStrategy printStrategy){

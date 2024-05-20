@@ -1,6 +1,6 @@
-package designpattern.strategy;
+package designpattern.strategypattern.strategy;
 
-public class UpperCasePrintStrategy implements PrintStrategy{
+public class UpperCasePrintStrategy implements PrintStrategy {
     @Override
     public void print(String text) {
         System.out.println("UpperCase: " + text.toUpperCase());
