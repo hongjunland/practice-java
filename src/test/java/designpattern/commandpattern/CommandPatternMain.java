@@ -1,25 +1,23 @@
 package designpattern.commandpattern;
 
-import designpattern.commandpattern.command.Command;
-import designpattern.commandpattern.command.LightOffCommand;
-import designpattern.commandpattern.command.LightOnCommand;
-import designpattern.commandpattern.invoker.RemoteControl;
-import designpattern.commandpattern.receiver.SwitchLight;
+import designpattern.commandpattern.command.WriteCommand;
+import designpattern.commandpattern.invoker.CommandManager;
+import designpattern.commandpattern.receiver.TextEditor;
 
 public class CommandPatternMain {
     public static void main(String[] args) {
-        SwitchLight switchLight = new SwitchLight();
-        Command lightOn = new LightOnCommand(switchLight);
-        Command lightOff = new LightOffCommand(switchLight);
+        TextEditor textEditor = new TextEditor();
+        CommandManager commandManager = new CommandManager();
 
-        RemoteControl remoteControl = new RemoteControl();
+        commandManager.executeCommand(new WriteCommand(textEditor, "Hello, "));
+        commandManager.executeCommand(new WriteCommand(textEditor, "world!!"));
 
-        // Turn on the light
-        remoteControl.setCommand(lightOn);
-        remoteControl.pressButton();
+        System.out.println("Current text: " + textEditor.getContent());
 
-        // Turn off the light
-        remoteControl.setCommand(lightOff);
-        remoteControl.pressButton();
+        commandManager.undo();
+        System.out.println("After undo: "+ textEditor.getContent());
+
+        commandManager.redo();
+        System.out.println("After redo: "+ textEditor.getContent());
     }
 }
