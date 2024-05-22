@@ -1,4 +1,4 @@
-package designpattern.templatemethod.template;
+package designpattern.templatemethodpattern.templatemethod;
 
 public class Coffee extends CaffeineBeverage{
 

@@ -7,5 +7,6 @@
   * [Observer Pattern](./src/test/java/designpattern/observerpattern)
   * [Command Pattern](./src/test/java/designpattern/commandpattern)
   * [Mediator Pattern](./src/test/java/designpattern/meditatorpattern)
-  * [Chain of Responsibility Pattern](./src/test/java/designpattern/chainofresponsibility)
-  * [Template Method Pattern](./src/test/java/designpattern/templatemethod)
+  * [Chain of Responsibility Pattern](./src/test/java/designpattern/chainofresponsibilitypattern)
+  * [Template Method Pattern](./src/test/java/designpattern/templatemethodpattern)
+  * [Visitor Pattern](./src/test/java/designpattern/visitorpattern)

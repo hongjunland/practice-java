@@ -1,4 +1,4 @@
-package designpattern.chainofresponsibility.handler;
+package designpattern.chainofresponsibilitypattern.handler;
 
 public class HandlerImplB implements Handler{
     private Handler nextHandler;

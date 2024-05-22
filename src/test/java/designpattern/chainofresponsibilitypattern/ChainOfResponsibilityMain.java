@@ -1,9 +1,9 @@
-package designpattern.chainofresponsibility;
+package designpattern.chainofresponsibilitypattern;
 
-import designpattern.chainofresponsibility.handler.Handler;
-import designpattern.chainofresponsibility.handler.HandlerImplA;
-import designpattern.chainofresponsibility.handler.HandlerImplB;
-import designpattern.chainofresponsibility.handler.HandlerImplC;
+import designpattern.chainofresponsibilitypattern.handler.Handler;
+import designpattern.chainofresponsibilitypattern.handler.HandlerImplA;
+import designpattern.chainofresponsibilitypattern.handler.HandlerImplB;
+import designpattern.chainofresponsibilitypattern.handler.HandlerImplC;
 
 public class ChainOfResponsibilityMain {
     public static void main(String[] args) {
