@@ -10,3 +10,4 @@
   * [Chain of Responsibility Pattern](./src/test/java/designpattern/chainofresponsibilitypattern)
   * [Template Method Pattern](./src/test/java/designpattern/templatemethodpattern)
   * [Visitor Pattern](./src/test/java/designpattern/visitorpattern)
+  * [Memento Pattern](./src/test/java/designpattern/mementopattern)
