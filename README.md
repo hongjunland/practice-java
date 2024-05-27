@@ -12,3 +12,4 @@
   * [Visitor Pattern](./src/test/java/designpattern/behavior/visitorpattern)
   * [Memento Pattern](./src/test/java/designpattern/behavior/mementopattern)
   * [Iterator Pattern](./src/test/java/designpattern/behavior/iteratorpattern)
+  * [Interpreter Pattern](./src/test/java/designpattern/behavior/interpreterpattern)
