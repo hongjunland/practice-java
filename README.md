@@ -16,3 +16,4 @@
   
 * Creation
   * [Singleton Pattern](./src/test/java/designpattern/creation/singletonpattern)
+  * [Factory Method Pattern](./src/test/java/designpattern/creation/factorymethodpattern)
