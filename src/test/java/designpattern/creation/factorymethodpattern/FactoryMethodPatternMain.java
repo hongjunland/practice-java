@@ -2,7 +2,7 @@ package designpattern.creation.factorymethodpattern;
 
 import designpattern.creation.factorymethodpattern.creator.ConcreteCreatorA;
 import designpattern.creation.factorymethodpattern.creator.ConcreteCreatorB;
-import designpattern.creation.factorymethodpattern.creator.Creator;
+import designpattern.creation.factorymethod.creator.Creator;
 
 public class FactoryMethodPatternMain {
     public static void main(String[] args) {
