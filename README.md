@@ -18,3 +18,4 @@
   * [Singleton Pattern](./src/test/java/designpattern/creation/singletonpattern)
   * [Factory Method Pattern](./src/test/java/designpattern/creation/factorymethodpattern)
   * [Abstract Factory Pattern](./src/test/java/designpattern/creation/abstractfactorypattern)
+  * [Builder Pattern](./src/test/java/designpattern/creation/builderpattern)
