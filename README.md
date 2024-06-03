@@ -20,3 +20,6 @@
   * [Abstract Factory Pattern](./src/test/java/designpattern/creation/abstractfactorypattern)
   * [Builder Pattern](./src/test/java/designpattern/creation/builderpattern)
   * [Prototype Pattern](./src/test/java/designpattern/creation/prototypepattern)
+
+* Structure
+  * [Adapter Pattern](./src/test/java/designpattern/stucture/adapterpattern)
