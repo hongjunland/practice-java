@@ -29,3 +29,10 @@
   * [Composite Pattern](./src/test/java/designpattern/stucture/compositepattern)
   * [Bridge Pattern](./src/test/java/designpattern/stucture/bridgepattern)
   * [Flyweight Pattern](./src/test/java/designpattern/stucture/flyweightpattern)
+
+## SOLID 원칙
+* [Single Responsibility Principle](./src/test/java/solid/srp)
+* [Open/Close Principle]
+* [Liskov Substitution Principle]
+* [Interface Segregation Principle]
+* [Dependecy Inversion Principle]
