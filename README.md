@@ -33,6 +33,6 @@
 ## SOLID 원칙
 * [Single Responsibility Principle](./src/test/java/solid/srp)
 * [Open/Close Principle](./src/test/java/solid/ocp)
-* [Liskov Substitution Principle]
+* [Liskov Substitution Principle](./src/test/java/solid/srp)
 * [Interface Segregation Principle]
 * [Dependecy Inversion Principle]

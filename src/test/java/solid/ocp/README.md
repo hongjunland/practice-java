@@ -35,6 +35,7 @@ class AreaCalculator {
     }
 }
 ```
+`Shape` 클래스와 `AreaCalculator` 클래스는 새로운 도형이 추가될 때마다 `AreaCalculator` 클래스가 변경되어야 합니다. 이는 개방-폐쇄 원칙을 위반하는 예입니다.
 
 ## 개선된 코드
 ```java
@@ -76,3 +77,4 @@ class AreaCalculator {
     }
 }
 ```
+개방-폐쇄 원칙을 준수하기 위해 `Shape` 클래스를 추상화하고, 각 도형별로 `Shape` 클래스를 확장하여 구현합니다. 이제 새로운 도형을 추가할 때 `AreaCalculator` 클래스를 변경할 필요가 없습니다.
