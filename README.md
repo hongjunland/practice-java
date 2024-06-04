@@ -3,7 +3,7 @@
 ## Design Patterns
 * Behavior
   * [Strategy Pattern](./src/test/java/designpattern/behavior/statepattern)
-  * [State Pattern](./src/test/java/designpattern/behavior/statepattern)
+  * [State Pattern](./src/test/java/designpattern/behavior/statepattern) 
   * [Observer Pattern](./src/test/java/designpattern/behavior/observerpattern)
   * [Command Pattern](./src/test/java/designpattern/behavior/commandpattern)
   * [Mediator Pattern](./src/test/java/designpattern/behavior/meditatorpattern)
@@ -28,3 +28,4 @@
   * [Proxy Pattern](./src/test/java/designpattern/stucture/proxypattern)
   * [Composite Pattern](./src/test/java/designpattern/stucture/compositepattern)
   * [Bridge Pattern](./src/test/java/designpattern/stucture/bridgepattern)
+  * [Flyweight Pattern](./src/test/java/designpattern/stucture/flyweightpattern)
