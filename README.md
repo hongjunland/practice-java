@@ -27,3 +27,4 @@
   * [Facade Pattern](./src/test/java/designpattern/stucture/facadepattern)
   * [Proxy Pattern](./src/test/java/designpattern/stucture/proxypattern)
   * [Composite Pattern](./src/test/java/designpattern/stucture/compositepattern)
+  * [Bridge Pattern](./src/test/java/designpattern/stucture/bridgepattern)
