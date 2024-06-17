@@ -36,3 +36,6 @@
 * [Liskov Substitution Principle](./src/test/java/solid/lsp)
 * [Interface Segregation Principle](./src/test/java/solid/isp)
 * [Dependency Inversion Principle](./src/test/java/solid/dip)
+
+## Concurrency
+* [Thread](./src/test/java/concurrency/conn/simplethread)
