@@ -30,7 +30,7 @@
   * [Bridge Pattern](./src/test/java/designpattern/stucture/bridgepattern)
   * [Flyweight Pattern](./src/test/java/designpattern/stucture/flyweightpattern)
 
-## SOLID 원칙
+## SOLID
 * [Single Responsibility Principle](./src/test/java/solid/srp)
 * [Open/Close Principle](./src/test/java/solid/ocp)
 * [Liskov Substitution Principle](./src/test/java/solid/lsp)
@@ -41,3 +41,4 @@
 * [Thread](./src/test/java/concurrency/conn/simplethread)
 * [Runnable](./src/test/java/concurrency/conn/runnable)
 * [Synchronized](./src/test/java/concurrency/conn/synchronizedthread)
+* [Wait & Notify](./src/test/java/concurrency/conn/waitandnotify)
