@@ -4,7 +4,7 @@ import java.util.concurrent.Flow;
 import java.util.concurrent.SubmissionPublisher;
 import java.util.concurrent.TimeUnit;
 
-class AsynchronusStreamsMain {
+class AsynchronousStreamsMain {
     public static void main(String[] args) throws InterruptedException {
         // Publisher 생성
         SubmissionPublisher<String> publisher = new SubmissionPublisher<>();

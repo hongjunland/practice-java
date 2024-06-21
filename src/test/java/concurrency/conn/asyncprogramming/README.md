@@ -34,6 +34,23 @@ class CallbackMain {
 ## CompletableFuture 
 `CompletableFutre`는 Java 8에 도입된 비동기 프로그래밍을 위한 클래스입니다. 비동기 작업을 쉽게 관리하고, 조합할 수 있도록 다양한 메서드를 제공합니다.
 
+### Method
+* Run
+  * runAsync: return void
+  * supplyAsync: return callable
+* Callback
+  * thenApply: Callable, 반환 값을 받아 처리 
+  * thenAccept: Void, 반환 값을 받아 처리
+  * thenRun: 반환 값을 받지 않고 다른 작업을 실행함
+* Compose tasks
+  * thenCompose: 두 작업이 이어서 실행하도록 조합하여, 앞선 작업의 결과를 받아서 사용할 수 있음.
+  * thenCombine: 두 작업을 독립적으로 실행하고, 둘 다 완료되었을 때 콜백을 실행
+  * allOf: 여러 작업들을 동시에 실행하고, 모든 작업 결과에 콜백을 실행
+  * anyOf: 가장 빨리 끝난 하나의 결과에 콜백을 실행
+* Handling
+  * exceptionally: 발생한 에러를 받아서 예외를 처리함
+  * handle, handleAsync: 결과값 or 에러를 반환받아 발생한 경우와 아닌 경우 모두 처리할 수 있음
+
 ```java
 class CompletableFutureMain {
     public static void main(String[] args) {
